@@ -1,0 +1,35 @@
+package fr.utt.lo02.projet;
+
+public class Carte {
+
+	private enum Couleur {Coeur, Carreau, Trefle, Pique};
+
+
+	public Carte (int valeur, int couleur) {
+
+		Couleur Col = Col.Coeur;
+
+		switch (couleur) {
+
+		case 1 : Col = Couleur.Coeur;
+		break;
+		
+		case 2 : Col = Couleur.Carreau;
+		break;
+		
+		case 3 : Col = Couleur.Trefle;
+		break;
+		
+		case 4 : Col = Couleur.Pique;
+		break;
+		
+		default : System.out.println("Aucune carte n'est sortie"); //Code a executer si aucun cas n'est verifie
+		
+		
+		
+		}
+
+
+	}
+
+}
